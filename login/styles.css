@@ -1,0 +1,101 @@
+.body-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 20px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 300px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.login input,
+button {
+  border-radius: 5px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.bodyCalculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+}
+
+.card-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 15px;                                                                                        
+}
+
+input {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px;
+
+}
+
+.resultado {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0px 25px;
+  margin: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  width: 50%;
+  font-weight: bold;
+
+}
